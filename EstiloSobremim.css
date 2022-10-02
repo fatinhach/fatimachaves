@@ -1,0 +1,249 @@
+/*Página Sobre mim*/
+.container{
+	width: 1200px;
+	display: flex;
+    flex-wrap: wrap;
+
+}
+.container div{
+	flex: 1 1 300px;
+}
+section{
+	width: 100%;
+	height: 80vh;
+	position: relative;
+}
+.conteudo-sobremim{
+	width: 45%;
+	margin: 45px 0px 25px;
+	position: absolute;
+	left: 13%;
+	top: 42%;
+	transform: translate(-13%, -42%);
+}
+
+.conteudo-sobremim button{
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 200px;
+}
+
+
+
+.minhafoto2{
+	height: 310px;
+	position: absolute;
+	bottom: 110px;
+	left: 80%;
+	transform: translateX(-70%);
+	border-radius: 50%;
+	border: 8px solid #d3d3d3;
+}
+.quemsou2{
+	color: white;
+	font-family: Calibri;
+	font-size: 22px;
+	text-align: center;
+	margin: 0px 0px;
+}
+
+@media(min-width: 200px) and (max-width: 600px){
+.conteudo-sobremim{
+	width: 70%;
+	margin: 45px 0px 25px;
+	position: absolute;
+	left: 22%;
+	top: 22%;
+	transform: translate(-13%, -42%);
+}
+
+.conteudo-sobremim button{
+	width: 100px;
+	height: 32px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 11px;
+	outline: none;
+	margin: 0px 90px;
+}
+
+.minhafoto2{
+	height: 200px;
+	position: absolute;
+	bottom: 10px;
+	left: 60%;
+	transform: translateX(-70%);
+	border-radius: 50%;
+	border: 8px solid #d3d3d3;
+}
+.quemsou2{
+	color: white;
+	font-family: Calibri;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 70px;
+	left: 60%;
+}	
+}
+@media(max-width: 400px){
+.conteudo-sobremim{
+	width: 70%;
+	margin: 45px 0px 25px;
+	position: absolute;
+	left: 22%;
+	top: 22%;
+	transform: translate(-13%, -42%);
+}
+
+.conteudo-sobremim button{
+	width: 100px;
+	height: 32px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 11px;
+	outline: none;
+	margin: 0px 90px;
+}
+
+.minhafoto2{
+	height: 200px;
+	position: absolute;
+	bottom: 10px;
+	left: 60%;
+	transform: translateX(-70%);
+	border-radius: 50%;
+	border: 8px solid #d3d3d3;
+}
+.quemsou2{
+	color: white;
+	font-family: Calibri;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 70px;
+	left: 60%;
+}	
+}
+@media(min-width: 600px) and (max-width: 850px){
+.conteudo-sobremim{
+	width: 48%;
+	margin: 45px 0px 25px;
+	position: absolute;
+	left: 10%;
+	top: 22%;
+	transform: translate(-13%, -42%);
+}
+
+.conteudo-sobremim button{
+	width: 100px;
+	height: 32px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 11px;
+	outline: none;
+	margin: 0px 90px;
+}
+
+.minhafoto2{
+	height: 200px;
+	position: absolute;
+	bottom: 290px;
+	left: 80%;
+	transform: translateX(-70%);
+	border-radius: 50%;
+	border: 8px solid #d3d3d3;
+}
+.quemsou2{
+	color: white;
+	font-family: Calibri;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 70px;
+	left: 60%;
+}	
+}
+@media(max-width: 400px){
+.conteudo-sobremim{
+	width: 70%;
+	margin: 45px 0px 25px;
+	position: absolute;
+	left: 22%;
+	top: 22%;
+	transform: translate(-13%, -42%);
+}
+
+.conteudo-sobremim button{
+	width: 100px;
+	height: 32px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 11px;
+	outline: none;
+	margin: 0px 90px;
+}
+
+.minhafoto2{
+	height: 200px;
+	position: absolute;
+	bottom: 10px;
+	left: 60%;
+	transform: translateX(-70%);
+	border-radius: 50%;
+	border: 8px solid #d3d3d3;
+}
+.quemsou2{
+	color: white;
+	font-family: Calibri;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 70px;
+	left: 60%;
+}	
+}
+@media(min-width: 850px) and (max-width: 1200px){
+.conteudo-sobremim{
+	width: 50%;
+	margin: 45px 0px 25px;
+	position: absolute;
+	left: 10%;
+	top: 45%;
+	transform: translate(-13%, -42%);
+}
+
+.conteudo-sobremim button{
+	width: 100px;
+	height: 32px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 11px;
+	outline: none;
+	margin: 0px 90px;
+}
+
+.minhafoto2{
+	height: 300px;
+	position: absolute;
+	bottom: 120px;
+	left: 80%;
+	transform: translateX(-70%);
+	border-radius: 50%;
+	border: 8px solid #d3d3d3;
+}
+.quemsou2{
+	color: white;
+	font-family: Calibri;
+	font-size: 19px;
+	text-align: center;
+	margin-bottom: 70px;
+	left: 60%;
+}	
+}

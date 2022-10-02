@@ -1,0 +1,105 @@
+footer{
+	width: 100%;
+	height: 10vh;
+	background-color: #1f1f1f;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+footer p{
+	padding: 0px;
+	margin: 0px;
+	}
+/*Página Sobre mim*/
+
+/*Página Contato*/
+.textemail{
+	width: 35%;
+	height: 25%;
+	padding: 8px;
+}
+
+.textassunto{
+	width: 35%;
+	height: 25%;
+	padding: 8px;
+}
+.textmensagem{
+	width: 35%;
+	height: 25%;
+	padding: 70px 14px 0px 0px;
+}
+.contato{
+	font-family: Calibri;
+	font-size: 12;
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+.btn3{
+	background-color: #1f1f1f;
+	border: 2px solid red;
+	color: #fff;
+	margin-top: 10px;
+	padding: 10px 5px;
+	border-radius: 10%;
+}
+.btn3:hover{
+	background-color:red;
+	border: none;
+	color: #fff;
+}
+
+
+@media(max-width: 400px){
+	.textemail{
+    margin: 0 auto;
+	width: 159px;
+	height: 12%;
+	padding: 4px;
+}
+
+.textassunto{
+	width: 159px;
+	height: 25%;
+	padding: 8px;
+}
+.textmensagem{
+	width: 159px;
+	height: 25%;
+	padding: 70px 14px 0px 0px;
+}
+.contato{
+	font-family: Calibri;
+	font-size: 12;
+	color: white;
+	text-align: center;
+	padding-top: 0px;
+}
+}
+@media(max-width: 600px){
+	.textemail{
+    margin: 0 auto;
+	width: 159px;
+	height: 12%;
+	padding: 4px;
+}
+
+.textassunto{
+	width: 159px;
+	height: 25%;
+	padding: 8px;
+}
+.textmensagem{
+	width: 159px;
+	height: 25%;
+	padding: 70px 14px 0px 0px;
+}
+.contato{
+	font-family: Calibri;
+	font-size: 12;
+	color: white;
+	text-align: center;
+	padding-top: 0px;
+}
+}
