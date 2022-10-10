@@ -23,15 +23,15 @@
 		</button>
         <!--Menu-->
 		<ul id="menu">
-		<li><a href="Index.html">Inicio</a></li>
-		<li><a href="sobremim.html">Sobre mim</a></li>
-		<li><a href="habilidades.html">Habilidades</a></li>
-		<li><a href="projetos.html">Projetos</a></li>
-		<li><a href="contato.html">Contato</a></li>
+		<li><a href="#pag1">Inicio</a></li>
+		<li><a href="#sobremim">Sobre mim</a></li>
+		<li><a href="#habilidades">Habilidades</a></li>
+		<li><a href="#Projetos">Projetos</a></li>
+		<li><a href="#contato">Contato</a></li>
 	</ul>
 	</nav>
 </header>
-<section>
+<section id="pag1">
 	  <!--Contéudo sobre mim + Currículo-->
 	   <div class="container">
 			<div class="conteudo-texto">
@@ -39,11 +39,11 @@
 				<p>Fátima Chaves</p>
 				<p>Desenvolvedora Web</p>
 
-				<button class="btn1"><a href="#">
+				<button class="btn1"><a href="#sobremim">
 					Quem eu sou?
 				</a></button>
-				<button class="btn2"><a href="#">
-					Download CV
+				<button class="btn2"><a href="cv.pdf" target="_blank">
+					Visualizar CV
 				</a></button>
 			</div>
 			 <!--Minha Foto-->
@@ -52,14 +52,16 @@
 			 </div>
 	    </div>
 </section>
-<section>
+<section id="sobremim">
 	  <!--Contéudo sobre mim + Currículo-->
 	<div class="container">
 		<div class="conteudo-sobremim">
 			<div class="quemsou2">
 		     <h3 style="margin: 0px;">Quem eu sou?</h3>
 		     <p>Me chamo Fátima Chaves, tenho 24 anos e estou no último semestre de Análise e Desenvolvimento de Sistemas, o meu primeiro contato com o mundo da tecnologia foi quando a minha mãe me matriculou em um curso de informática básica, desde então a minha paixão só aumentou dia após dia, atualmente trabalho como freelancer desenvolvendo pequenos sites, landing pages e lojas virtuais. </p>
-		     <button class="btn2">Download CV</button>
+		     <button class="btn2"><a href="cv.pdf" target="_blank">
+					Visualizar CV
+				</a></button>
 		     </div>
 
 			
@@ -71,7 +73,7 @@
 	 </div>
 </section>
 <div class="mudasection2">
-<section>
+<section id="habilidades">
 
 		 <h1 class="titulo">Minhas Habilidades</h1>
         <div class="quemsou">
@@ -99,7 +101,7 @@
 </section>
 </div>
 <div class="mudasection">
-<section>
+<section id="Projetos">
 		 <h1 class="titulo2">Projetos</h1>
         <div class="quemsou3">
 		     <div class="gallery-container2">
@@ -115,26 +117,30 @@
 		     </div>
 
 	    </div>
-	    <button class="btn4 "><a href="projetos.html">
+	    <button class="btn4 "><a href="Projetos.html">
 					Ver Projetos
 				</a></button>
 </section>
 </div>
-<section>
+<section id="contato">
 	<div class="contato">
 	     <h3>Contato</h3>
-	     <div>
-	     	<p>E-mail</p>
-	     	<input type="text" name="email" class="textemail">
-	     	<p>Assunto</p>
-	     	<input type="text" name="assunto" class="textassunto">
-	     	<p>Mensagem:</p>
-	     	<textarea class="textmensagem"></textarea>
+	     <form action="https://formspree.io/f/mbjbklql" method="POST">
+	     	<div>
+		     	Seu Nome: <br/>
+		     	<input class="textemail" type="text" name="nome" required /><br/>
+		     	Seu E-mail: <br/>
+		     	<input class="textemail" type="email" name="email" required /><br/>
+		     	Sua Mensagem: <br/>
+		     	<textarea class="textmensagem" name="mensagem"></textarea><br/>
+		     	<input class="btn3" type="submit" name="Enviar"><br/>
+                <input class="btn3" type="reset" name="Limpar">
 
-	     </div>
-	        <button class="btn3 "><a href="#">
-					Enviar Mensagem
-				</a></button>
+                 <input type="hidden" name="_subject" value="Novo Contato Portfólio">
+                 <input type="text" name="_honey" style="display: none;">
+                 <input type="hidden" name="_captcha" value="false">
+	        </div>
+	     </form>
 	</div>
 </section>
 <footer>

@@ -41,8 +41,7 @@ footer p{
 	border: 2px solid red;
 	color: #fff;
 	margin-top: 10px;
-	padding: 10px 5px;
-	border-radius: 10%;
+	padding: 10px 30px;
 }
 .btn3:hover{
 	background-color:red;
